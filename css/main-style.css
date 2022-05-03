@@ -6,7 +6,74 @@
 }
 
 .header {
+    display: flex;
+     justify-content: space-between;
+     align-items: center;
     padding: 9px 19px 9px 39px;
     background-color: floralwhite;
     box-shadow: 0px 1px 20px rgba(139, 139, 139, 0.65);
 }
+
+.nav-links {
+    display: flex;
+}
+
+.nav-links li {
+    list-style: none;
+    margin-right: 20px;
+    font-size: 1.5rem;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #777777;
+    text-transform: uppercase;
+}
+
+.image-main {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.main-text {
+    font-size: 2.0rem;
+    display: flex;
+    justify-content: center;
+    padding-top: 65px;
+    font-style: italic;
+}
+
+.image-main-2 {
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    padding: 70px 80px;
+    margin: 10px;
+    width: 100%;
+}
+
+.main-descontos{
+    display: flex;
+    background-color:#C2185B;
+    justify-content: space-around;
+    padding: 80px;
+    border: solid 2px red; 
+    box-sizing: border-box;
+}
+.main-descontos div {
+    display: flex;
+    justify-content:center;
+    align-items: top;
+    color:bisque;
+}
+
+.main-descontos-2 {
+    
+}
+/* teste */
+/* 
+.image-main-3 {
+    display: flex;
+    justify-content:right;
+} */
